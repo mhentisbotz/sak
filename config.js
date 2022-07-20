@@ -34,23 +34,23 @@ global.APIKeys = { // APIKey Here
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 
-global.WM = 'Sakkarin-Md By ©Nan'
-global.linkgc = 'https://chat.whatsapp.com/LX22xQnDb0yJijocPMYf2P'
-global.linkig = 'https://instagram.com/nan_sakrn?igshid=ZDc0MTNkNmI='
+global.WM = 'ALLAH SOSMED & SCRIPT : https://is.gd/4ZPpIt'
+global.linkgc = 'https://bit.ly/3ax9GjJ'
+global.linkig = 'https://instagram.com/asyrafsixyouu'
 global.deslink = ''
 global.titlink = 'Folllow me on Instagram'
-global.bodlink = '@nan_sakrin'
+global.bodlink = '@asyrafsixyouh'
 
 global.wait = '_*Tunggu Sebentar*_'
 global.eror = '_*мααƒ ѕєяνєя тι∂αк ѕтαвιℓ..*_'
 
 //========Url Template Buttons==========//
 global.dtu = 'Follow'
-global.urlnya = "https://www.instagram.com/nan_sakrin"
+global.urlnya = "https://www.instagram.com/asyrafsixyouu"
 
 //============= callButtons ============//
 global.dtc = '𝒄𝒂𝒍𝒍 𝒐𝒘𝒏𝒆𝒓'
-global.phn = '+66 85 504 8169'
+global.phn = '+62 819-4694-5315'
 
 //========== Tampilan Bot =============//
 global.sa = '╭─'
