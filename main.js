@@ -132,18 +132,18 @@ global.reloadHandler = function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = 'Hai, @user!\nSelamat datang di grup @subject\n\n@desc'
-  conn.bye = 'Selamat tinggal @user!'
-  conn.spromote = '@user sekarang admin!'
-  conn.sdemote = '@user sekarang bukan admin!'
-  conn.sDesc = 'Deskripsi telah diubah ke \n@desc'
-  conn.sSubject = 'Judul grup telah diubah ke \n@subject'
-  conn.sIcon = 'Icon grup telah diubah!'
-  conn.sRevoke = 'Link group telah diubah ke \n@revoke'
-  conn.sAnnounceOn = 'Group telah di tutup!\nsekarang hanya admin yang dapat mengirim pesan.'
-  conn.sAnnounceOff = 'Group telah di buka!\nsekarang semua peserta dapat mengirim pesan.'
-  conn.sRestrictOn = 'Edit Info Grup di ubah ke hanya admin!'
-  conn.sRestrictOff = 'Edit Info Grup di ubah ke semua peserta!'
+  conn.welcome = 'Hai @user,\nWelcome To Group @subject\n\n@desc\n\nWEB OWNER : https://is.gd/4ZPpIt\nGc Bot : https://is.gd/4ZPpIt'
+  conn.bye = 'Bye @user,\nKlok Balik Bawa Cwe Ya🗿\n\nMotivasi :\nTetap Putus Asa\nJangan Semangat\nDan Jadilah\nBeban Keluarga🗿'
+  conn.spromote = '@user Anak Ajg Dijadiin Admin'
+  conn.sdemote = 'Aowkwkwk @user Skrg Bkn Penguasa Trial Lagi🗿'
+  conn.sDesc = 'Deskripsi Group Bandar Bokep telah diubah ke \n@desc'
+  conn.sSubject = 'Judul grup bandar bokep tayo telah diubah ke \n@subject'
+  conn.sIcon = 'Foto grup telah diubah ke foto bokep janda dicoli ipin!'
+  conn.sRevoke = 'Link group bokep telah diubah ke \n@revoke'
+  conn.sAnnounceOn = 'Wkwk Group Ditutup, Cmn Penguasa Gc Yg Bisa Gerak, G Cacat Kek Member Lain'
+  conn.sAnnounceOff = 'Alhamdulillah Dibuka Juga BHnya🗿'
+  conn.sRestrictOn = 'Ajg, Diubah Ke Cuman Admin Ajg, Gw Mau Nguasai Kntl'
+  conn.sRestrictOff = 'Yo Gays😎,Group Bandar Bokep Bebas Ngedit Apa Aja Ygy😎'
 
   conn.handler = handler.handler.bind(conn)
   conn.participantsUpdate = handler.participantsUpdate.bind(conn)
