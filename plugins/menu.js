@@ -277,10 +277,10 @@ _*${harii} Hari ${jamm} Jam ${menitt} Menit ${detikk} Detik*_
 ❏ Ulang Tahun Owner
 _*${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik*_
 
-${pe}Note: Jika ada Fitur yg Error Lapor ke owner${pe}`,
+${pe}Note: Lu Harus Subscribe YT Owner GANZ Gw😎${pe}`,
       footer: wm,
       title: judul,
-      buttonText: "Klik Disini Kak",
+      buttonText: "Hy Bangsat",
       sections
     }
     return conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(judul), contextInfo: { forwardingScore: 99999, isForwarded: true }})
