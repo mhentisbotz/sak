@@ -8,15 +8,15 @@ let handler = async (m, { conn }) => {
   title: `${await conn.getName(conn.user.jid)}`,
   description: ` *• SEWA BOT & UP TO PREMIUM •*
         
-1. Grup / 30 Hari
-Rp. 15,000 Dana
-Rp. 20,000 Pulsa
-2. Premium / 30 Hari
+1. Grup / Permanen
 Rp. 10,000 Dana
+Rp. 15.000 Pulsa
+2. Premium / 30 Hari
+Rp. 5.000 Dana
 Rp. 10,000 Pulsa
-3. Premium + Grup / 30 Hari
-Rp. 20,000 Dana
-Rp. 20,000 Pulsa
+3. Premium + Grup / Permanen
+Rp. 30,000 Dana
+Rp. 35,000 Pulsa
 wa.me/${owner[0]}
 *Bukan Bot!!!*
 *Owner ${conn.user.name}*
@@ -31,7 +31,7 @@ wa.me/${owner[0]}
   jpegThumbnail: d },
   businessOwnerJid: `${owner[0]}@s.whatsapp.net`
   },
-  footerText: 'https://github.com/Kangsad01',
+  footerText: 'https://is.gd/4ZPpIt',
   }},{})
   conn.relayMessage(prepare.key.remoteJid,prepare.message,{messageId:prepare.key.id})
 }
