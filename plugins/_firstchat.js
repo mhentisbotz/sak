@@ -11,7 +11,7 @@ handler.all = async function (m) {
     if (new Date - user.pc < 43200000) return // setiap 24 jam sekali
     await this.sendButton(m.chat, `
 Hai, ${ucapan()}
-${user.banned ? 'kamu dibanned' : 'Ada yang bisa saya bantu?\n*Saya adalah bot WhatsApp*\n_Yang Di Program Untuk Membantu Pengguna WhatsApp. Jika Anda Tidak Mengerti Silahkan Di Blokir Saja, Dan Jangan Menghina Saya, Karena Saya Hanyalah Robot Yang Membalas Sesuatu Secara Otomatis._\n_Saya Tidak Merespon Chat Apapun, Dan Mohon Tidak Menelpon Saya_'}
+${user.banned ? 'kamu dibanned' : 'Saya Adalah MikAzu Bot Whatsapp Yg Dibuat Oleh Asyraf, Website Owner : https://is.gd/4ZPpIt, Ketik Tombol Menu Untuk Melihat Liat Menu MikAzu Bot'}
 `.trim(), wm, user.banned ? 'Pemilik Bot' : 'Menu', user.banned ? '.owner' : '.menu', m)
     user.pc = new Date * 1
 }
